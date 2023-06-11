@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+    background-color: rgb(132, 130, 135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+.greeting{
+    position: absolute;
+    top: 70px;
+}
+.greeting h2{
+color: rgb(13, 13, 62);
+padding: 10px;
+}
+.greeting p{
+    color: rgb(13, 13, 62);
+}
+.inputs{
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 300px;
+    height: 120px;
+    display:flex ;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 4px;
+}
+.data input{
+    padding: 4px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+.data button{
+    background-color: rgb(24, 24, 80);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+.data button:hover{
+    background-color: rgb(40, 6, 234);
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+}
+.box{
+    background: #f9f7f7;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+.item{
+    background-color: rgb(65, 65, 72);
+    padding: 10px;
+    margin: 6px;
+    cursor: move;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-align: center;
+}
